@@ -1,0 +1,76 @@
+/* src/App.css */
+
+/* Adding a colorful gradient background to the whole app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the App container */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Styling for form labels and inputs */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Styling the submit button */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for headings */
+h1, h2 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling for Loan Status Tracker */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
